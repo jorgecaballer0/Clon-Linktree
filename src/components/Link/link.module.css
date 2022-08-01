@@ -1,0 +1,91 @@
+.linksContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.link {
+  background-color: #fff;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 5.2rem;
+  background-image: linear-gradient(to left, #f5f6f8, #87898b);
+}
+
+.linkInfo {
+  margin: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.linkTitle {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 0.4rem 0;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #87898b;
+}
+
+.linkUrl {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 0;
+  color: #444;
+  text-transform: lowercase;
+  font-size: 1.1rem;
+}
+
+.linkActions {
+  display: flex;
+  align-content: stretch;
+  align-items: stretch;
+  height: 100%;
+}
+
+.editLinksData {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 1rem;
+  margin: .2rem 0;
+}
+
+.btnEdit {
+  display: flex;
+  align-items: center;
+  height: 1rem;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btnDelete {
+  border: none;
+  border-left: 1px solid #f5f6f8;
+  margin: 0;
+  background-color: transparent;
+  height: 1rem;
+  color: #b10606;
+  cursor: pointer;
+  min-height: 100%;
+  padding: 0.8rem;
+  flex: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnDelete:hover {
+  background-image: linear-gradient(to left, #b10606, #f5f6f8);
+  color: #fff;
+}
+
+.btnDelete .material-icons {
+  font-size: 1.6rem;
+}
+
+.btnEdit:hover {
+  color: #222;
+}

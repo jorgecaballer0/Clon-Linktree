@@ -1,0 +1,24 @@
+.entryContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+    margin-bottom: 1rem;
+}
+
+.logo {
+    width: 160px;
+}
+
+.titleDashboard{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.labelDashboard{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #fff;
+}
